@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advancements in AI: Global & Indian Perspectives</title>
+  <style>
+    body {
+      background-image: url("https://i.postimg.cc/j2z1ktSq/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-cen.jpg");
+      background-size: fit;
+      font-family: Arial, sans-serif;
+      color: aliceblue;
+      padding: 20px;
+    }
+
+    a {
+      color: yellow;
+    }
+
+    h1, h2, h3 {
+      color: aqua;
+    }
+
+    img {
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Artificial Intelligence: A Global & Indian Perspective</h1>
+  <p>Artificial Intelligence (AI) refers to systems that simulate human intelligence to perform tasks like learning, reasoning, and problem-solving. Worldwide, AI is being integrated into almost every industry, from customer service to medicine.</p>
+
+  <h2>Global Applications of AI</h2>
+  <p>Countries like the USA, China, and the UK are investing heavily in AI technologies. Innovations such as ChatGPT, autonomous vehicles, and smart robotics are reshaping modern industries.</p>
+  <img width="250" height="100" src="https://i.postimg.cc/hjnT1B61/AI-1.jpg" alt="Global AI">
+
+  <h2>AI Growth in India</h2>
+  <p>India is emerging as a major hub for AI innovation. Government initiatives like "Digital India" are supporting AI in multiple sectors such as education, healthcare, and finance.</p>
+
+  <h3>AI in Agriculture</h3>
+  <p>Indian farmers are using AI tools like crop prediction, automated irrigation, and pest detection to boost productivity.</p>
+  <img width="300" height="100" src="https://i.postimg.cc/65F7hKG4/7.jpg" alt="AI in Agriculture">
+
+  <h3>AI in Education</h3>
+  <p>The Indian education system is evolving with AI-powered virtual tutors, smart assessments, and personalized learning platforms.</p>
+  <img width="300" height="100" src="https://i.postimg.cc/T38wDcZr/token-finance-vanrijmenam-20.jpg" alt="AI in Education">
+
+  <h3>AI in Governance</h3>
+  <p>AI is also being adopted by the Indian government for better service delivery, traffic control, and public safety under Digital India initiatives.</p>
+  <img width="300" height="100" src="https://i.postimg.cc/zf7X4Y3j/caigo-1.jpg" alt="AI in Governance">
+
+  <h2>AI in Healthcare</h2>
+  <p>AI helps in diagnostics, patient monitoring, and even remote surgeries in India and globally. Platforms are using AI to analyze medical records and suggest treatments.</p>
+  <img width="300" height="100" src="https://i.postimg.cc/zBPDXwCH/1707000491-screenshot-2024-02-03-234759.avif" alt="AI in Healthcare">
+
+  <h3>Prime Minister Narendra Modi on AI in Healthcare</h3>
+  <audio controls>
+    <source src="https://soundcloud.com/narendramodi/india-is-rapidly-making-its-mark-in-artificial-intelligence-pm-modi?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" type="audio/mpeg">
+  </audio>
+
+  <h2>Challenges of AI in India</h2>
+  <p>While AI is promising, India faces unique challenges:</p>
+  <ul>
+    <li>Limited digital infrastructure in rural areas</li>
+    <li>Data privacy concerns</li>
+    <li>Risk of job loss due to automation</li>
+  </ul>
+
+  <h2>Proposed Solutions</h2>
+  <p>To harness AI responsibly, India must expand digital literacy, improve rural connectivity, and implement AI-friendly regulations that protect jobs and data privacy.</p>
+
+  <h2>Official AI Website of India</h2>
+  <a href="https://indiaai.gov.in/" target="_blank">Visit indiaai.gov.in</a>
+
+  <h2>Interactive MCQ Quiz</h2>
+  <div class="quiz">
+    <h3>Which of the following is a major concern with AI?</h3>
+    <ul>
+      <li><input type="radio" name="answer" value="learning"> Helping students learn better</li>
+      <li><input type="radio" name="answer" value="banking"> Improving banking services</li>
+      <li><input type="radio" name="answer" value="diagnosis"> Diagnosing medical conditions</li>
+      <li><input type="radio" name="answer" value="cheating"> Misuse by students for cheating</li>
+    </ul>
+    <button onclick="checkAnswer()">Submit</button>
+    <div id="result"></div>
+  </div>
+
+  <h2>Watch: PM Modi on AI's Future</h2>
+  <a href="https://youtu.be/I_W5lVv9LaU?si=0_aREhzR1Uh6Nxd_" target="_blank">Watch here</a>
+
+  <script>
+    let correctAnswer = "cheating";
+    let score = 0;
+
+    function checkAnswer() {
+      const selected = document.querySelector('input[name="answer"]:checked');
+      if (!selected) {
+        document.getElementById("result").innerHTML = "Please select an answer.";
+        return;
+      }
+      const userAnswer = selected.value;
+      if (userAnswer === correctAnswer) {
+        score++;
+        document.getElementById("result").innerHTML = "Correct! Your score is " + score;
+      } else {
+        document.getElementById("result").innerHTML = "Incorrect. The correct answer is 'Misuse by students for cheating.'";
+      }
+    }
+  </script>
+
+</body>
+</html>
